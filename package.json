@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gen": "sh -c 'npx agrippa gen $0 --dest $1'"
   },
   "dependencies": {
     "phosphor-react": "^1.4.1",
@@ -18,6 +19,7 @@
     "@types/react-dom": "^18.0.9",
     "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^3.0.0",
+    "agrippa": "^2.0.0",
     "eslint": "8.22.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.6.0",

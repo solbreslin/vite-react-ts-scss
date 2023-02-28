@@ -5,7 +5,7 @@ function App() {
 
 
   return (
-    <p>Boilerplate works</p>
+    <main>Boilerplate works</main>
   );
 }
 
